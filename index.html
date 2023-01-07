@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="prism.css">
+</head>
+
+<body>
+    <script src="prism.js"></script>
+
+
+    <h3>
+    <a href = "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups">
+    Using Objects for Lookups</a>
+    </h3>
+    <p style="width: 50%";>Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a switch statement or an if/else chain. This is most useful when you know that your input data is limited to a certain range.</p>
+<pre>
+<code class="language-javascript" style="width: 300px;">
+const article = {
+    "title": "How to create objects in JavaScript",
+    "link": "https://www.freecodecamp.org/",
+    "author": "Kaashan Hussain",
+    "language": "JavaScript",
+    "tags": "TECHNOLOGY",
+    "createdAt": "NOVEMBER 28, 2018"
+    };
+    
+const articleAuthor = article["author"];
+const articleLink = article["link"];
+
+const value = "title";
+const valueLookup = article[value];
+</code>
+</pre>
+</body>
+</html>

@@ -8,7 +8,7 @@ https://htmlpreview.github.io/?https://github.com/elmiven/js-notes/blob/main/ind
 ### Using Objects for Lookups  
 Objects can be thought of as a key/value storage, like a dictionary. If you have tabular data, you can use an object to lookup values rather than a switch statement or an if/else chain. This is most useful when you know that your input data is limited to a certain range.  
 
-```
+```js
 const article = {
   "title": "How to create objects in JavaScript",
   "link": "https://www.site.com",
@@ -41,7 +41,7 @@ If value is an empty string, delete the given prop property from the album.
           
 Note: A copy of the recordCollection object is used for the tests.
   
-```
+```js
     const recordCollection = {
       2548: {
         albumTitle: 'Slippery When Wet',
